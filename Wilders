@@ -1,0 +1,12 @@
+932  li -lrt
+  933  ls -lrt
+  934  cd Downloads
+  935  ls -lrt
+  936  cat wilders.csv
+  937  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+  938  cat php_france_2019.csv
+.....
+  971  grep -E "Toulouse|Biarritz" wilders.csv | grep "JavaScript" > javascript_biarritz_toulouse.csv 
+  972  cat javascript_biarritz_toulouse.csv
+  973  history
+  974  history | tail -43 > history.txt
