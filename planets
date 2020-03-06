@@ -1,0 +1,119 @@
+wilder@wilder-ThinkPad-T440p:~/quetes/shell/planets] (master *+%) $ find
+.
+./inhabited
+./inhabited/arrakis.jpeg
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./real
+./real/telluric
+./real/telluric/mercury.jpeg
+./real/telluric/mars.jpeg
+./real/telluric/venus.jpeg
+./real/telluric/earth.jpeg
+./real/gas-giants
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/uranus.jpeg
+./real/gas-giants/jupiter.jpeg
+
+
+
+
+91  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  792  unzip planets.zip
+  793  ls -lrt
+  794  cd planets
+  795  ls -lrt
+  796  cat venus.jpeg
+  797  pwd
+  798  mkdir real mkdir fictional mkdir inhabited
+  799  mkdir real |mkdir fictional | mkdir inhabited
+  800  ls -lrt
+  801  rkdir mkdir
+  802  rmdir mkdir
+  803  ls -lrt
+  804  mkdir /real/telluric
+  805  cd real
+  806  mkdir telluric | mkdir gas-giants | mkdir dwarf-planets
+  807  ls
+  808  cd ..
+  809  mv cybertron.jpeg coruscant.jpg arrakis.jpeg planets/fictional
+  810  mv cybertron.jpeg coruscant.jpg arrakis.jpeg fictional/
+  811  mv coruscant.jpeg fictional/
+  812  ls -lrt
+  813  mv earth.jpeg real/
+  814  mv real/earth.jpeg inhabited/
+  815  ls -lrt
+  816  rmdir pluto.jpeg
+  817  cd ..
+  818  ls -lrt
+  819  cd planets
+  820  ls -lrt
+  821  cd real
+  822  ls -lrt
+  823  cd ..
+  824  cd inhabited
+  825  ls -lrt
+  826  cp earth.jpeg
+  827  cp earth.jpeg ~quetes/shell/planets/real/telluric
+  828  cp earth.jpeg ~/quetes/shell/planets/real/telluric
+  829  cd ..
+  830  cd real
+  831  ls -lrt
+  832  cd telluric
+  833  ls -lrt
+  834  cd ..
+  835  ls -lrt
+  836  cd ..
+  837  mv jupiter.jpeg real/gas-giants/
+  838  cd real/gas-giants/
+  839  ls -lrt
+  840  cd ..
+  841  ls -lrt
+  842  mv mars.jpeg mercury.jpeg venus.jpeg real/telluric/
+  843  cd real/telluric
+  844  ls -lrt
+  845  cd ..
+  846  ls -lrt
+  847  mv uranus.jpeg saturn.jpeg neptune.jpeg real/gas-giants
+  848  ls -lrt
+  849  mv pluto.jpeg real/dwarf-planets
+  850  cd real
+  851  ls -lrt
+  852  telluric
+  853  cd telluric
+  854  ls -lrt
+  855  cp earth.jpeg ~/quetes/shell/planets/inhabited/
+  856  cd ..
+  857  ls -lrt
+  858  cd fictional
+  859  ls -lrt
+  860  cp cybertron.jpeg coruscant.jpeg arrakis.jpeg ~quetes/shell/planets/inhabited/
+  861  cp cybertron.jpeg coruscant.jpeg arrakis.jpeg ~/quetes/shell/planets/inhabited/
+  862  cd ..
+  863  cd planets
+  864  ls -lrt
+  865  cd inhabited
+  866  ls -lrt
+  867  cd ..
+  868  ls -lrt
+  869  cd real
+  870  ls -lrt
+  871  cd dwarf-planets
+  872  cd ..
+  873  rm -r dwarf-planets
+  874  ls -lrt
+  875  found
+  876  find
+  877  cd ..
+  878  cd..
+  879  cd ..
+  880  find
+  881  cd planets
+  882  find
+  883  history
